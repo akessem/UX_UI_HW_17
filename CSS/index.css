@@ -169,7 +169,7 @@ h4 {
 
 #primaryButton {
 background-color: #2B2B2B;
-width: 167px;
+width: 170px;
 height: 54px;
 right: 526px;
 top: 598px;
@@ -184,8 +184,39 @@ text-align: center;
 letter-spacing: 0.06em;
 }
 
+Button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+Button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#primaryButton:hover {
+  background: linear-gradient(90deg, #151A6A -28.74%, #7FACFA 214.37%);
+  box-sizing: border-box;
+box-shadow: 0px 5.57698px 15.8014px rgba(0, 0, 0, 0.27);
+border-radius: 21px;
+}
+Button:hover span {
+  padding-right: 25px;
+}
+
+Button:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+
 #secondaryButton {
-width: 167px;
+width: 170px;
 height: 54px;
 right: 526px;
 top: 598px;
@@ -197,9 +228,20 @@ font-weight: normal;
 font-size: 23px;
 line-height: 28px;
 text-align: center;
-letter-spacing: 0.06em;
+letter-spacing: 0.03em;
+}
+
+
+#secondaryButton:hover {
+  color:#151A6A;
+  background: linear-gradient(270deg, rgba(11, 107, 179, 0.13) 0%, #7FACFA 120.96%);
+border: 2.1517px solid rgba(165, 170, 249, 0.38);
+box-sizing: border-box;
+box-shadow: 0px 5.57698px 15.8014px rgba(0, 0, 0, 0.27);
+border-radius: 21px;
 }
 #divider {
   width:80px;
-  color:none;
+  background-color: white;
+  border-width: 0px;
 }
