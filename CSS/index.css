@@ -214,7 +214,7 @@ Button span:after {
 }
 
 Button:hover span {
-  padding-right: 15px;
+  padding-right: 16px;
 }
 
 Button:hover span::after {
