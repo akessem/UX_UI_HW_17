@@ -1,37 +1,65 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/akessem/UX_UI_HW_17/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/akessem/UX_UI_HW_17/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alena Kessem UX Portfolio</title>
+  <link href="css/index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<header>
+<div class="topnav">
+    <div class="left-links">
+        <p>Alena Kessem</p>
+        <div class=social>
+        <a href= "https://www.instagram.com/" class="fa fa-instagram"><img src="Images\instagram.svg" width="42" height="42px"></a>
+        <a href="https://www.behance.net" class="fa fa-behance"><img src="Images\Behance.svg" width="42" height="42px"></a>
+        <a href="https://www.linkedin.com/" class="fa fa-behance"><img src="Images\linkedin.svg"width="42" height="42px"></a>
+      </div>
+    </div>
+	 <div class="right-links">
+                <a href="#" class="home">Home</a>
+                <a href="#">About</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Portfolio 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="/UXDesign">UX Design</a>
+                    <a href="/visualDesign">Visual Designs</a>
+                    <a href="/wallpapers">Motion graphics</a>
+                  </div>
+                </div>
+                <a href="#">Contact Me</a>
+           </div>
+	</div>
+</header>
+<hero>
+  <div class=photo><img src="Images\Photo.png" width="155" height="155px" alt="professional headshot">
+  </div>
+  <div class=greeting><h4>Hi, my name is Alena</h4>
+  </div>
+    <div class=tagline><h2>I am Freelance <span style="color:#0C85C9">UX/UI Designer</span> with a<br>marketing background and over <br><span style="color:#0C85C9">4 years of visual design</span> experience</h2>
+    </div>
+  </div>
+</div>
+<div class="heroButtons">
+<div>
+  <button type="button"id=primaryButton>About Me</button>
+</div>
+<div><button type="button" id=divider></button></div>
+    <div><button type="button" id=secondaryButton>My Resume</button>
+  </div>
+</div>
+</hero>
+<footer>
+  <div class="topnav">
+  <div class="left-links-footer">
+      <p>Alena Kessem</p>
+  </div>
+ <div class="right-links-footer"> 
+    <a href= "https://www.instagram.com/" class="fa fa-instagram"><img src="Images\instagram.svg" width="42" height="42px"></a>
+    <a href="https://www.behance.net" class="fa fa-behance"><img src="Images\Behance.svg" width="42" height="42px"></a>
+    <a href="https://www.linkedin.com/" class="fa fa-behance"><img src="Images\linkedin.svg"width="42" height="42px"></a>     
+</div>
+</footer>
+</body>
+</html>
