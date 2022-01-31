@@ -199,6 +199,7 @@ line-height: 28px;
 text-align: center;
 letter-spacing: 0.06em;
 }
-.divider {
-  width:50px;
+#divider {
+  width:80px;
+  color:none;
 }
