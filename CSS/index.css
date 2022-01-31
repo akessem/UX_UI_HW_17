@@ -168,20 +168,20 @@ h4 {
 }
 
 #primaryButton {
-background-color: #2B2B2B;
-width: 170px;
-height: 54px;
-right: 526px;
-top: 598px;
-border-radius: 21px;
-color:white;
-font-family: Lato;
-font-style: normal;
-font-weight: normal;
-font-size: 23px;
-line-height: 28px;
-text-align: center;
-letter-spacing: 0.06em;
+  background-color: #2B2B2B;
+  width: 170px;
+  height: 54px;
+  right: 526px;
+  top: 598px;
+  border-radius: 21px;
+  color:white;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 Button span {
